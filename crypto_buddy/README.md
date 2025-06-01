@@ -7,3 +7,15 @@ I used the CoinMarketCap API to collect real-time data on market prices and mark
 To ensure data quality, I built a validation module (data_validator.py) that checks each entry in the database for structure, missing fields, and data type accuracy. This ensures the chatbot logic receives clean and consistent inputs.
 The final crypto_db is saved in both JSON and CSV formats and can be easily queried or updated as needed.
 ---
+
+# crypto_buddy
+
+Example user interaction:
+User: Which crypto is trending?
+CryptoBuddy: 🔥 These cryptos are on the rise: Bitcoin, Cardano, Solana!
+--------------------------------------
+User: What’s the most sustainable coin?
+CryptoBuddy: 🌱 Invest in Algorand! It's eco-friendly with a strong future.
+--------------------------------------
+User: How does crypto work?
+CryptoBuddy: Crypto uses decentralized blockchain technology to verify transactions securely
